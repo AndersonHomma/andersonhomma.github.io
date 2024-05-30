@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frescor da Verduras</title>
+</head>
+<body class="container">
+    <header class="containerCabecalho">
+        
+        <div class="cabecalhoPrincipal">
+
+            <h1 class="cabecalhoTitulo">FRESCOR DAS VERDURAS</h1>
+
+        </div>
+    </header>
+    <nav class="containerNav">
+        <ul class="navLista">
+            <li class="navListaItem"><a href="index.html" class="navListaItemLink">Home</a></li>
+            <li class="navListaItem"><a href="sobre.html" class="navListaItemLink">Sobre nós</a></li>
+            <li class="navListaItem"><a href="produtos.html" class="navListaItemLink">Produtos</a></li>
+            <li class="navListaItem"><a href="contatos.html" class="navListaItemLink">Contatos</a></li>
+
+        </ul>
+    </nav>
+    
+    <main class="containerPrincipal">
+        <div class="contatos">
+            <h1 class="contatosTitulo">Fale Conosco</h1>
+                <form action="#" method="post" name="Frmcontatos" id="contatos" enctype="multipart/form-data" class="formularios">
+
+                    <div class="formulariosItens">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    
+                    <div class="formulariosItens">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    
+                    <div class="formulariosItens">
+                        <label for="fone">Telefone</label>
+                        <input type="tel" nome="fone" id="fone">
+                    </div>
+                    
+                    <div class="formulariosItens">
+                        <label>Sexo</label>
+                        <input type="radio" name="Sexo" id="sexoM">
+                        <label for="sexoM">masculino</label>
+                        <input type="radio" name="Sexo" id="sexoF">
+                        <label for="sexoF">Feminino</label>
+                    </div>
+                    
+                    <div class="formulariosItens">
+                        <label for="assunto">Assunto</label>
+                        <Select name="assunto" id="assunto">
+                            <option value="0" selected disabled>
+                                Selecione o assunto
+                            </option>
+                            <option value="sugestao">Sugestões</option>
+                            <option value="duvida">Dúvidas</option>
+                            <option value="reclamacao">Reclamações</option>
+                        </Select>
+                    </div>
+                    
+                    <div class="formulariosItensObs">
+
+                        <label for="obs">Observações</label>                        
+                        <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    <div class="formulariosItens"><input type="submit" value="Enviar" name="enviar" ></div>
+            
+                </form>
+        </div>
+
+    </main>
+    <footer class="Rodape">
+        <div class="RodapeDizer">
+            <p>&copy; 2024 FRESCOR DAS VERDURAS. Todos direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

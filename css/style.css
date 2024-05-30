@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Permanent+Marker&family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {    
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background: radial-gradient(white, #1d5242, black);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+.containerCabecalho {
+
+    background-color: #43aa8b;
+    background-image: url(../assets/imgVegetaisCabecalho.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+.cabecalhoTitulo {
+    color: #98ecde;
+    font-family: 'Permanet Marker', cursive, 'Cambria', 'Times New Roman';
+    font-size: 4em;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+
+.nav {
+    width: 100%;
+}
+
+
+.navLista {
+    background-color: #132a13;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 10px black;
+
+}
+
+.navListaItem {
+    background-color: #132a13;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navListaItem :hover {
+    background-color: #3d947a;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+.navListaItemLink {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    font-family: 'Courgette', 'Cambria', 'Times New Roman';
+    font-size: 1.9em;
+}
+
+.containerPrincipal {     
+    padding: 30px;
+    background-color: #43aa8b48;
+
+}
+
+.containerPrincipalIndex {
+    height: 100%;
+    background-color: #43aa8b48;
+}
+
+.containerPrincipalSobre{    
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.61);
+    font-family: "Lobster", sans-serif,'Cambria';
+    font-size: 1.5em;    
+}
+
+.containerPrincipalSobre p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.principalTitulo {
+
+    font-family: "Permanent Marker", cursive;
+    font-size: 2.8em;
+    font-weight: 400;
+    font-style: normal;
+    color: #00f5d4;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+.containerPrincipalVideoCentral {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerPrincipalDizer {
+    font-family: "Permanent Marker", cursive;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: normal;
+    color: #def0ed;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+.containerProdutos {
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+
+.produtos {
+    width: 20%;        
+    background-color: #132a13;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.containerProdutos :hover {
+    transform: translateY(-5px);
+    
+}
+
+.produtos img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid white;
+}
+
+.produtosInfo h3 {
+    background-color: #132a13;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.preco {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffd60a;
+    padding-bottom: 20px;
+    
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatosTitulo {
+    margin: auto;
+    padding: 30px;
+    color: #1d5242;
+    font-family: "Permanent Marker", cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+
+}
+
+.formulariosItens {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;    
+    align-items: center;    
+}
+
+label {
+    margin: 10px;
+    font-family:'Poppins',sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+input {
+
+    padding: 8px;
+    margin: 10px;
+    font-family:'Poppins',sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#nome, #email {
+    width: 100%;
+}
+
+#assunto {
+    font-family:'Poppins',sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.formulariosItensObs {
+    display: flex;
+    flex-direction: column;    
+}
+
+
+.Rodape {
+    background-color: #132a13;
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+@media(max-width:962px) {
+    .cabecalhoTitulo {
+        font-size: 3.5em;
+    }
+    .navListaItemLink {
+        font-size: 1.8em;
+    }
+    .navListaItem :hover{
+        font-size: 1.9em;
+    }
+    .contatosTitulo{
+        font-size: 2.5em;
+    }
+    .produtosInfo h3{
+        font-size: 1.5em;
+    }
+    .preco {
+        font-size: 1.3em;
+    }
+    .formulariosItens{
+        font-size: 0.9em;
+    }
+    .formulariosItensObs {
+        font-size: 0.9em;
+    }
+    .containerPrincipalDizer {
+        font-size: 1.5em
+    }
+    .Rodape {
+        font-size: 0.8em;
+    }
+    
+
+}
+
+@media(max-width:856px) {
+    .cabecalhoTitulo {
+        font-size: 3em;
+    }
+    .navListaItemLink {
+        font-size: 1.6em;
+    }
+    .navListaItem :hover{
+        font-size: 1.7em;
+    }    
+    .principalTitulo {
+        font-size: 2.3em;
+    }
+}
+
+@media(max-width:751px) {
+    .cabecalhoTitulo {
+        font-size: 2.5em;
+    }
+    .navListaItemLink {
+        font-size: 1.5em;
+    }
+    .navListaItem :hover{
+        font-size: 1.6em;
+    }
+    .contatosTitulo{
+        font-size: 2.3em;
+    }
+    .produtosInfo h3{
+        font-size: 1.3em;
+    }
+    .preco {
+        font-size: 1.2em;
+    }
+    .formulariosItens{
+        font-size: 0.7em;
+    }
+    .formulariosItensObs{
+        font-size: 0.7em;
+    }
+
+    .principalTitulo {
+        font-size: 2em;
+    }
+    .containerPrincipalDizer {
+        font-size: 1.3em
+    }
+}
+
+@media(max-width:631px) {
+    .cabecalhoTitulo {
+        font-size: 2em;
+    }
+    .navListaItemLink {
+        font-size: 1.2em;
+    }
+    .navListaItem :hover{
+        font-size: 1.3em;
+    }
+    .principalTitulo {
+        font-size: 1.5em;
+    }
+    .contatosTitulo{
+        font-size: 2.1em;
+    }
+    .produtosInfo h3{
+        font-size: 1.1em;
+    }
+    .preco {
+        font-size: 1em;
+    }
+    .formulariosItens{
+        font-size: 0.6em;
+    }
+    .formulariosItensObs{
+        font-size: 0.6em;
+    }
+    .containerPrincipalDizer {
+        font-size: 1.2em
+    }
+    .containerPrincipalSobre p {
+        font-size: 0.7em;
+    }
+}
+
+@media(max-width:521px) {
+    .cabecalhoTitulo {
+        font-size: 1.5em;
+    }
+    .navListaItemLink {
+        font-size: 1em;
+    }
+    .navListaItem :hover{
+        font-size: 1.1em;
+    }
+    .principalTitulo {
+        font-size: 1em;
+    }
+    .contatosTitulo{
+        font-size: 2em;
+    }
+    .produtosInfo h3{
+        font-size: 0.8em;
+    }
+    .preco {
+        font-size: 0.7em;
+    }
+    .containerPrincipalDizer {
+        font-size: 1em;
+    }
+}
