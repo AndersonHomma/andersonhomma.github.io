@@ -36,11 +36,6 @@
     text-shadow: 2px 2px black;
 }
 
-.nav {
-    width: 100%;
-}
-
-
 .navLista {
     background-color: #132a13;
     display: flex;
@@ -287,7 +282,7 @@ input {
         font-size: 1.7em;
     }    
     .principalTitulo {
-        font-size: 2.3em;
+        font-size: 2.4em;
     }
 }
 
@@ -296,10 +291,10 @@ input {
         font-size: 2.5em;
     }
     .navListaItemLink {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     .navListaItem :hover{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
     .contatosTitulo{
         font-size: 2.3em;
@@ -318,7 +313,7 @@ input {
     }
 
     .principalTitulo {
-        font-size: 2em;
+        font-size: 2.3em;
     }
     .containerPrincipalDizer {
         font-size: 1.3em
@@ -327,7 +322,7 @@ input {
 
 @media(max-width:631px) {
     .cabecalhoTitulo {
-        font-size: 2em;
+        font-size: 2.1em;
     }
     .navListaItemLink {
         font-size: 1.2em;
@@ -336,13 +331,21 @@ input {
         font-size: 1.3em;
     }
     .principalTitulo {
-        font-size: 1.5em;
+        font-size: 2.1em;
     }
     .contatosTitulo{
         font-size: 2.1em;
     }
+    .produtos {
+        width: 30%;        
+        background-color: #132a13;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
     .produtosInfo h3{
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
     .preco {
         font-size: 1em;
@@ -361,9 +364,10 @@ input {
     }
 }
 
+
 @media(max-width:521px) {
     .cabecalhoTitulo {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .navListaItemLink {
         font-size: 1em;
@@ -372,16 +376,80 @@ input {
         font-size: 1.1em;
     }
     .principalTitulo {
-        font-size: 1em;
+        font-size: 1.6em;
     }
     .contatosTitulo{
         font-size: 2em;
     }
     .produtosInfo h3{
-        font-size: 0.8em;
+        font-size: 1.6em;
     }
     .preco {
         font-size: 0.7em;
+    }
+    .containerPrincipalDizer {
+        font-size: 1em;
+    }
+}
+
+@media(max-width:460px) {    
+    
+    .navLista {                
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 1px 10px black;            
+    }
+    .navListaItem {
+        width: 100%;
+        text-align: center;
+        background-color: #132a13;
+        list-style-type: none;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 1px 1px black;
+    }
+    .navListaItemLink {
+        width: 100%;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2em;
+    }
+    .navListaItemLink :hover {
+        width: 100%;
+        transition: 0.5s; 
+        background-color: #3d947a;               
+        font-size: 1.3em;
+    }   
+    .containerPrincipalVideoCentral {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+        .produtos {
+        width: 60%;        
+        background-color: #132a13;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+    .cabecalhoTitulo {
+        font-size: 2em;
+    }        
+    .principalTitulo {
+        font-size: 2em;
+    }
+    .contatosTitulo{
+        font-size: 2em;
+    }
+    .produtosInfo h3{
+        font-size: 1.7em;
+    }
+    .preco {
+        font-size: 1.5em;
     }
     .containerPrincipalDizer {
         font-size: 1em;
